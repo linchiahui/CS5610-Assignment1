@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+    <title>Chia-Hui Godfrey Lin | SDE & DS</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header-home">
+      <div class="container">
+        <nav id="home-nav" class="top">
+          <img src="img/logo2.png" alt="My Portfolio" id="logo" />
+          <ul>
+            <li><a href="#header-home" class="current">Home</a></li>
+            <!-- <li><a href="#resume">Resume</a></li> -->
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="contactt.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-content">
+          <h1>
+            I'm Godfrey, Aspiring Software Engineer
+            <span
+              class="txt-type"
+              data-wait="2000"
+              data-words='["Software Engineer", "Data Scientist"]'
+            ></span>
+          </h1>
+          <p class="lead">
+            I'm actively seeking SDE/DS Intern or Full-Time Positions
+          </p>
+          <a href="project.html" class="btn-light">View My Work</a>
+          <div class="header-social">
+            <a href="https://www.linkedin.com/in/chia-hui-lin-81317a192/"
+              ><i class="fab fa-linkedin fa-2x"></i
+            ></a>
+            <a href="https://github.com/linchiahui"
+              ><i class="fab fa-github fa-2x"></i
+            ></a>
+            <a href="https://www.facebook.com/godfreylin1993"
+              ><i class="fab fa-facebook fa-2x"></i
+            ></a>
+            <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Resume -->
+    <section id="resume" class="text-center py-2">
+      <div class="container">
+        <h2 class="section-title">Something about me</h2>
+        <div class="buttom-line"></div>
+        <div class="link">
+          <a href="about.html" class="btn-dark">Know More About Me</a>
+        </div>
+        <div class="resume-content">
+          <div class="column resume-education">
+            <i class="fas fa-graduation-cap fa-2x"></i>
+            <h2 class="section-title">Education</h2>
+            <div class="buttom-line"></div>
+          </div>
+          <div class="column resume-education-content">
+            <h3 class="resume-title">Northeastern University, Seattle</h3>
+            <p class="">
+              MS in Computer Science &nbsp&nbsp • Sep 2019 - current
+            </p>
+            <h3 class="resume-title">National Taiwan University, Taiwan</h3>
+            <p class="">
+              M.S. in Engineering Science &nbsp&nbsp • Sep 2015 - Jun 2017
+            </p>
+            <h3 class="resume-title">National Central University, Taiwan</h3>
+            <p class="">
+              B.S. in Mechanical Engineering &nbsp&nbsp • Sep 2011 - Jun 2015
+            </p>
+          </div>
+          <div class="column resume-experience">
+            <i class="fas fa-briefcase fa-2x"></i>
+            <h2 class="section-title">WORK EXPERIENCE</h2>
+            <div class="buttom-line"></div>
+          </div>
+          <div class="column resume-experience-content">
+            <h3 class="resume-title">Graduate Research Assistant</h3>
+            <h4>Thermal Control Lab, New Energy Center in NTU</h4>
+            <p class="duration">Sep 2015 – Aug 2017</p>
+            <p class="lead">
+              • &nbsp&nbsp Promoted a 21% increase in energy generation in 2016
+              through the solar PV system (C++) using the One-Axis Maximum Power
+              Generation (1AMPG) tracker installed in an average household
+            </p>
+            <p class="lead">
+              • &nbsp&nbsp Replaced 31.8% of energy consumption with the Hybrid
+              PV System (C++) installed at the ME department building
+            </p>
+            <p class="lead">
+              • &nbsp&nbsp Improved and extended the Si-Pb battery life to 500
+              cycles with a better state of health still achieve 95% by
+              self-designed charge and discharge with pulsating direct current
+              which max till 36A (via C++/ VB).
+            </p>
+          </div>
+          <div class="column resume-project">
+            <i class="far fa-file-code fa-2x"></i>
+            <h2 class="section-title">personal projects</h2>
+            <div class="buttom-line"></div>
+          </div>
+          <div class="column resume-project-content">
+            <!-- project1 -->
+            <h2 class="resume-title">
+              Mini Instagram: Django Full-Stack Web Application
+            </h2>
+            <p>
+              • &nbsp&nbsp Designed the front-end interface using HTML, CSS,
+              JavaScript allowing users to either follow/unfollow other users,
+              make posts, and the ability to view posts as an overview or in
+              detail
+            </p>
+            <p>
+              • &nbsp&nbsp Created an asynchronous function through Ajax
+              allowing users to like/dislike and/or comment on posts in
+              real-time; increased web security with verification services such
+              as authentication and authorization
+            </p>
+            <p>
+              • &nbsp&nbsp Developed a back-end structure modeled after the MVC
+              pattern on Django in Python; achieved data persistence on the
+              platform by interacting with SQLite
+            </p>
+            <!-- project2 -->
+            <h2 class="resume-title">
+              News Collaborative Recommendation System
+            </h2>
+            <p>
+              • &nbsp&nbsp Analyzed legacy public media data for the last 20
+              years with various NLP models (word2vec and BERT) via TensorFlow,
+              implemented data vectors to train the recommendation system module
+            </p>
+            <p>
+              • &nbsp&nbsp Improved the accuracy rate of the prediction of
+              users’ preference by 73% with the implementation of the DeepFM
+              model on the system which feeds users the news according to their
+              preference and reading history
+            </p>
+            <p>
+              • &nbsp&nbsp Developed a recommendation system on the API Line
+              chatbot; built a chatbot that is able to determine user preference
+              and provide relevant information
+            </p>
+            <!-- project3 -->
+            <h2 class="resume-title">
+              Recipe Books: Angular Single Page Web Application
+            </h2>
+            <p>
+              • &nbsp&nbsp Implemented a single page web using Angular routers
+              to change web page, elevating user experience; designed an
+              observer pattern using RXJS that allows users to view a live
+              update when either making new recipes or modifying the shopping
+              list
+            </p>
+            <p>
+              • &nbsp&nbsp Enabled users to fetch and modify data from Firebase
+              via RESTful HTTP requests after passing the authentication feature
+            </p>
+            <p>
+              • &nbsp&nbsp Optimized the web application with separated feature
+              modules to approach the lazy-loading and preloading strategy
+            </p>
+            <!-- project4 -->
+            <h2 class="resume-title">
+              Course Registration: Single Page Full-Stack Web Application
+            </h2>
+            <p>
+              • &nbsp&nbsp Designed the web UI on an Angular framework using
+              HTML, CSS, TypeScript; created a front-end interface with the
+              ability for users to identify individuals through permission
+              levels, such as admin, developer, or user
+            </p>
+            <p>
+              • &nbsp&nbsp Developed the back-end based on the MVC pattern via
+              the Spring framework; optimized data retrieval of controllers when
+              notifying specific servers to fetch or modify data from MySQL
+              according to CRUD requests and return the data in JSON format
+            </p>
+            <p>
+              • &nbsp&nbsp Managed the front-end with Yarn and back-end with
+              Maven; boosted project’s versatility to operate in different
+              environments
+            </p>
+            <!-- project5 -->
+            <h2 class="resume-title">
+              User To-do List: Django Full-Stack Web Application
+            </h2>
+            <p>
+              • &nbsp&nbsp Designed the front-end interface using HTML, CSS,
+              JavaScript allowing users to either create their to-do list,
+              complete the to-do list, and the ability to mark it as important
+              or leave the detail
+            </p>
+            <p>
+              • &nbsp&nbsp Increased web security with verification services
+              such as authentication and authorization
+            </p>
+            <p>
+              • &nbsp&nbsp Developed a back-end structure modeled after the MVC
+              pattern on Django in Python; achieved data persistence on the
+              platform by interacting with SQLite
+            </p>
+            <!-- project6 -->
+            <h2 class="resume-title">
+              To-do List: Task Management Application
+            </h2>
+            <p>
+              • &nbsp&nbsp Constructed a personalized task management
+              application compatible with Windows and macOS using the MVC
+              structure allowing users to create and organize to-do lists
+            </p>
+            <p>
+              • &nbsp&nbsp Implemented a general command line parser to process
+              user input and a dynamic filter patterned after Builder and
+              Factory designs
+            </p>
+            <p>
+              • &nbsp&nbsp Improved code coverage by 94% through 114 tests in
+              collaboration with 2 teammates using Git to manage code versions
+            </p>
+            <!-- project7 -->
+            <h2 class="resume-title">
+              Music Notation: Drawing Tool and Gesture Recognition
+            </h2>
+            <p>
+              • &nbsp&nbsp Created a Java GUI application for users to train the
+              system using gestures (e.g. draw, undo, save) or produce musical
+              notes
+            </p>
+            <p>
+              • &nbsp&nbsp Utilized data serialization and deserialization
+              mechanism to store and retrieve trained gestures efficiently
+            </p>
+            <p>
+              • &nbsp&nbsp Enhanced effectivity in capturing points and scales
+              of new gestures and comparing stored gestures in the database by
+              pattern recognition
+            </p>
+            <!-- project8 -->
+            <h2 class="resume-title">Othello: Game Design</h2>
+            <p>
+              • &nbsp&nbsp Improved user experience by creating the user
+              interface and providing game board customization through
+              Processing (IDE)
+            </p>
+            <p>
+              • &nbsp&nbsp Established an initial setup for the game controller
+              to automatically switch user control; laid out a command to place
+              and flip disks accordingly, display scores in real-time, and
+              update the leader board
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section A: Specialize -->
+    <section id="home-a" class="text-center py-2">
+      <div class="container">
+        <h2 class="section-title">TECHNICAL SKILLS</h2>
+        <div class="buttom-line"></div>
+        <p class="lead">
+          For the sake of becoming a Full-Stack engineer, I've learned lots of
+          technical skills...
+        </p>
+        <div class="specials">
+          <div>
+            <i class="fas fa-code fa-2x"></i>
+            <h3>Programming languages</h3>
+            <div>
+              <span>Python</span>
+              <span>Java</span>
+              <span>JavaScript</span>
+              <span>C++</span>
+              <span>C</span>
+              <span>TypeScript</span>
+              <span>Visual Basic</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Sass</span>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-desktop fa-2x"></i>
+            <h3>Computer Science knowledge</h3>
+            <div>
+              <span>Data Structure</span>
+              <span>Algorithm</span>
+              <span>Object Oriented Design</span>
+              <span>Operating System</span>
+              <span>Computer Architecture</span>
+              <span>Web Development</span>
+              <span>Database Management</span>
+            </div>
+          </div>
+          <div>
+            <i class="fab fa-react fa-2x"></i>
+            <!-- <i class="fab fa-angular fa-2x"></i> -->
+            <h3>Full-Stack Tools</h3>
+            <div>
+              <span>Angular</span>
+              <span>Django</span>
+              <span>React</span>
+              <span>Spring</span>
+              <span>Node.JS</span>
+              <span>Git</span>
+              <span>Bootstrap</span>
+              <span>Firebase</span>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-database fa-2x"></i>
+            <h3>Database</h3>
+            <div>
+              <span>MySQL</span>
+              <span>MongoDB</span>
+              <span>SQLite3</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section C: Process -->
+    <section id="home-c" class="text-center py-2">
+      <div class="container">
+        <h2 class="section-title">Personal Featured Projects</h2>
+        <div class="buttom-line"></div>
+        <p class="lead">
+          I'm passionate about learning new things and am diligently learning
+          about development frameworks such as Django, Angular, and Spring.
+          Further, using MySQL for the sake of keeping data persistence.
+        </p>
+        <div class="link">
+          <a href="project.html" class="btn-dark"
+            >View More Projects and Detail</a
+          >
+        </div>
+        <div class="process">
+          <div>
+            <a
+              href="img/items/instagram.png"
+              data-lightbox="cases"
+              data-title="mini full-stack Django project to implement the simple function of Instagram"
+            >
+              <img
+                src="img/items/Instagram.png"
+                alt=""
+                class="process-icon my-2"
+              />
+            </a>
+            <h3>Mini Instagram</h3>
+            <p>
+              This Dajngo application allows users to interact with other people
+              on the application.
+            </p>
+            <p>
+              Users can upload their photo on their profile, others who follow
+              the users can like/dislike and comment on posts.
+            </p>
+          </div>
+          <div>
+            <a
+              href="img/items/registration.jpg"
+              data-lightbox="cases"
+              data-title="Coures registration Full-Stack project"
+            >
+              <img
+                src="img/items/registration.jpg"
+                alt=""
+                class="process-icon my-2"
+              />
+            </a>
+            <h3>Course registration</h3>
+            <p>
+              Users can add or delete the courses from the front-end and trigger
+              the CRUD requests to communicate with the back-end and database.
+              To achieve the object of modifying or fetching the data.
+            </p>
+          </div>
+          <div>
+            <a
+              href="img/items/recipe.jpg"
+              data-lightbox="cases"
+              data-title="Recipe Books Angular project with Firebase"
+            >
+              <img
+                src="img/items/recipe.jpg"
+                alt=""
+                class="process-icon my-2"
+              />
+            </a>
+            <h3>recipe books</h3>
+            <p>
+              Users can fetch data from the database, and modified or add new
+              recipes on books. Also, users can add the ingredients of the
+              recipe to the shopping list. Don't forget to save the recipe
+              before you leave!
+            </p>
+          </div>
+          <div>
+            <a
+              href="img/items/othello.jpg"
+              data-lightbox="cases"
+              data-title="Used Processing to design and implement a board game called 'Reversi' with Python"
+            >
+              <img
+                src="img/items/othello.jpg"
+                alt=""
+                class="process-icon my-2"
+              />
+            </a>
+            <h3>Othello Game</h3>
+            <p>
+              The game would launch the initial set up of the board, determine
+              whose turn it would be, board, will show all valid possible move
+              for user. the valid moves the player could select, as well as the
+              ability to flip the color of disks if a valid move was selected.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>
+          Copyright &copy; 2020. <span> Godfrey Lin</span> All Rights Reserved
+        </p>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/chia-hui-lin-81317a192/"
+            ><i class="fab fa-linkedin fa-2x"></i
+          ></a>
+          <a href="https://github.com/linchiahui"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
+          <a href="https://www.facebook.com/godfreylin1993"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+          <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+          <!-- <i class="fab fa-linkedin fa-2x"></i> -->
+          <!-- <i class="fab fa-github fa-2x"></i>
+          <i class="fab fa-facebook fa-2x"></i>
+          <i class="fab fa-instagram fa-2x"></i> -->
+        </div>
+      </div>
+    </footer>
+    
+  </body>
+</html>
