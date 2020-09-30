@@ -1,0 +1,285 @@
+#about-a .about-info {
+  display: grid;
+  grid-template-areas:
+    "bioimage bio bio"
+    "aw1 aw2 aw3";
+  grid-gap: 1.2rem;
+}
+#about-a .about-info img {
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+#about-a .bio-image {
+  grid-area: bioimage;
+}
+
+#about-a .bio {
+  grid-area: bio;
+  border-left: 3px solid #25d7e4;
+  padding: 1.8rem;
+  text-align: left;
+}
+#about-a .bio #bio-1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+#about-a .bio #bio-2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+#about-a .bio #bio-3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#about-a .award-1 {
+  grid-area: aw1;
+}
+
+#about-a .award-2 {
+  grid-area: aw2;
+}
+
+#about-a .award-3 {
+  grid-area: aw3;
+}
+
+#about-a .award-1 .fas,
+#about-a .award-2 .fas,
+#about-a .award-3 .fas {
+  color: #25d7e4;
+  margin: 1rem;
+}
+
+#about-b .progress {
+  overflow: hidden;
+  height: 20px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.3rem;
+}
+#about-b .progress div {
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  background: #45c7ee;
+}
+
+#about-c .about-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+#about-c .about-logos img {
+  width: 55%;
+}
+
+#about-d .testimonials {
+  display: grid;
+  grid-template-areas:
+    "t1 t2 t3"
+    "c1 c2 c3 ";
+  grid-gap: 0.5rem;
+}
+#about-d .testimonials #title1 {
+  grid-area: t1;
+}
+#about-d .testimonials #title2 {
+  grid-area: t2;
+}
+#about-d .testimonials #title3 {
+  grid-area: t3;
+}
+#about-d .testimonials #content1 {
+  grid-area: c1;
+}
+#about-d .testimonials #content2 {
+  grid-area: c2;
+}
+#about-d .testimonials #content3 {
+  grid-area: c3;
+}
+#about-d .testimonials ul {
+  list-style: none;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+#about-d .testimonials li {
+  padding: 0.3rem;
+}
+#about-d .testimonials i {
+  color: rgba(11, 192, 20, 0.705);
+  padding-right: 5px;
+}
+#about-d .testimonials p {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+#about-d .testimonials img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 800px) {
+  #header-home {
+    height: 30rem;
+  }
+  #header-home .header-content {
+    padding-top: 5rem;
+  }
+  #main-footer {
+    height: 7rem;
+  }
+  #main-footer .footer-content {
+    flex-direction: column;
+    padding: 1rem;
+    height: 5rem;
+    font-size: 1rem;
+  }
+  #main-footer .footer-content .social .fab {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  #main-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  #main-nav li {
+    padding: 0.5rem;
+  }
+  #home-nav {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+  }
+  #home-nav li {
+    padding: 0.5rem;
+  }
+  #header-home {
+    height: 10rem;
+    border-bottom: 3px solid #45c7ee;
+    background-position: 20% 30%;
+  }
+  #header-home .header-content {
+    display: none;
+  }
+  #header-inner {
+    height: 10rem;
+  }
+  #home-a .specials,
+  #home-b .stats,
+  #home-c .process,
+  #about-d .testimonials,
+  #contact-b .contact-info,
+  .items {
+    grid-template-columns: 1fr;
+  }
+  #home-a .specials div {
+    border-bottom: 1px #f4f4f4 solid;
+    padding-bottom: 1rem;
+  }
+  #home-a .specials div:last-child {
+    border: none;
+    padding-bottom: 0;
+  }
+  #home-b .stats div {
+    padding: 2rem 0 1rem 0;
+  }
+  #resume .resume-content {
+    grid-template-columns: 1fr;
+  }
+  #resume .resume-content .resume-education {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+  #resume .resume-content .resume-education-content {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+  }
+  #resume .resume-content .resume-experience {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+  }
+  #resume .resume-content .resume-experience-content {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
+  }
+  #resume .resume-content .resume-project {
+    grid-column: 1 / span 1;
+    grid-row: 5 / span 1;
+  }
+  #resume .resume-content .resume-project-content {
+    grid-column: 1 / span 1;
+    grid-row: 6 / span 1;
+  }
+  #about-a .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "aw1"
+      "aw2"
+      "aw3";
+  }
+  #about-c {
+    display: none;
+  }
+  #about-d .testimonials {
+    grid-template-areas:
+      "t1"
+      "c1"
+      "t2"
+      "c2"
+      "t3"
+      "c3";
+  }
+  #work-a .items .item-text span {
+    display: none;
+  }
+  #contact-a .text-fields {
+    grid-template-areas:
+      "name"
+      "subject"
+      "email"
+      "phone"
+      "message";
+  }
+  #contact-b div {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px #555 solid;
+  }
+  #contact-b div:last-child {
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  #contact-c h1 {
+    font-size: 2rem;
+  }
+  #main-footer {
+    height: 7rem;
+  }
+  #main-footer .footer-content {
+    flex-direction: column;
+    padding: 1rem;
+    height: 5rem;
+    font-size: 1rem;
+  }
+  #main-footer .footer-content .social .fab {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+  }
+}
